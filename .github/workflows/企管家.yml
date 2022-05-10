@@ -26,7 +26,7 @@ jobs:
           pip install requests
           pmode='pp'
           pkey='0a4c4a8fac2d4726b76a9a229788d460'
-          user='13551175355#13281277984'
-          pwd='13551175355HHwan#cp123456789'
+          user='13708007720#13688376470'
+          pwd='Aa123456#Aa123456'
           step='15000-33333'
           python3 main.py ${pmode} ${pkey} ${user} ${pwd} ${step}
