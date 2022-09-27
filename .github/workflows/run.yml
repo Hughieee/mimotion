@@ -28,6 +28,6 @@ jobs:
           pkey='0a4c4a8fac2d4726b76a9a229788d460'
           user='13540047344#15680452159#17313199311#13086466086'
           pwd='cp123456789#cp123456789#Cguniang918#123456abcd'
-          step='15000-34567'
+          step='15000-34527'
 
           python3 main.py ${pmode} ${pkey} ${user} ${pwd} ${step}
