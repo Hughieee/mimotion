@@ -15,14 +15,14 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: 初始化Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.7
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
           node-version: 16
+      - name: 初始化Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.7
       - name: 开始
         run: |
           pip install requests
