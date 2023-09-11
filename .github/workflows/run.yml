@@ -15,10 +15,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: 16
       - name: 初始化Python
         uses: actions/setup-python@v3
         with:
